@@ -1,5 +1,5 @@
 /**
- * lodash 3.3.0 (Custom Build) <https://lodash.com/>
+ * lodash 3.3.1 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize exports="npm" -o ./`
  * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
@@ -14,13 +14,16 @@ var nativeIsFinite = root.isFinite;
 /**
  * Checks if `value` is a finite primitive number.
  *
- * **Note:** This method is based on [`Number.isFinite`](https://mdn.io/Number/isFinite).
+ * **Note:** This method is based on
+ * [`Number.isFinite`](https://mdn.io/Number/isFinite).
  *
  * @static
  * @memberOf _
+ * @since 0.1.0
  * @category Lang
  * @param {*} value The value to check.
- * @returns {boolean} Returns `true` if `value` is a finite number, else `false`.
+ * @returns {boolean} Returns `true` if `value` is a finite number,
+ *  else `false`.
  * @example
  *
  * _.isFinite(3);
