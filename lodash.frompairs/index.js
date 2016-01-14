@@ -1,12 +1,11 @@
 /**
- * lodash 4.0.0 (Custom Build) <https://lodash.com/>
+ * lodash 4.0.1 (Custom Build) <https://lodash.com/>
  * Build: `lodash modularize exports="npm" -o ./`
  * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
  * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
  * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
  * Available under MIT license <https://lodash.com/license>
  */
-var baseSet = require('lodash._baseset');
 
 /**
  * The inverse of `_.toPairs`; this method returns an object composed
@@ -14,6 +13,7 @@ var baseSet = require('lodash._baseset');
  *
  * @static
  * @memberOf _
+ * @since 4.0.0
  * @category Array
  * @param {Array} pairs The key-value pairs.
  * @returns {Object} Returns the new object.
@@ -29,7 +29,7 @@ function fromPairs(pairs) {
 
   while (++index < length) {
     var pair = pairs[index];
-    baseSet(result, pair[0], pair[1]);
+    result[pair[0]] = pair[1];
   }
   return result;
 }
