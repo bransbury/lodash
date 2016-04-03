@@ -1,11 +1,11 @@
 {
-  "name": "lodash.update",
+  "name": "lodash.divide",
   "version": "4.7.0",
-  "description": "The lodash method `_.update` exported as a module.",
+  "description": "The lodash method `_.divide` exported as a module.",
   "homepage": "https://lodash.com/",
   "icon": "https://lodash.com/icon.svg",
   "license": "MIT",
-  "keywords": "lodash-modularized, update",
+  "keywords": "lodash-modularized, divide",
   "author": "John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
   "contributors": [
     "John-David Dalton <john.david.dalton@gmail.com> (http://allyoucanleet.com/)",
@@ -13,9 +13,5 @@
     "Mathias Bynens <mathias@qiwi.be> (https://mathiasbynens.be/)"
   ],
   "repository": "lodash/lodash",
-  "scripts": { "test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\"" },
-  "dependencies": {
-    "lodash._baseset": "~4.2.0",
-    "lodash._stringtopath": "~4.7.0"
-  }
+  "scripts": { "test": "echo \"See https://travis-ci.org/lodash/lodash-cli for testing details.\"" }
 }
